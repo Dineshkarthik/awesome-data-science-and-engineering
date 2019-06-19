@@ -11,10 +11,12 @@ This mostly covers python related opensource ones ranging from beginner to inter
 - [Libraries](#libraries)
     - [Pandas](#libraries-pandas)
     - [NumPy](#libraries-numpy)
+- [Tools](#tools)
+	- [JupyterLab](#tools-jupyterlab)
 
 <!-- /MarkdownTOC -->
 
-<a name="Libraries"></a>
+<a name="libraries"></a>
 ## Libraries
 
 <a name="libraries-pandas"></a>
@@ -44,3 +46,19 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 * [Array manipulation](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.array-manipulation.html) - changing shapes, transpose-like operations, changing number of dimensions, changing kind of array, joining-splitting-tilling of arrays, adding-removing & rearraning elements
 * [Fancy Indexing](https://jakevdp.github.io/PythonDataScienceHandbook/02.07-fancy-indexing.html) - fancy indexing, combined indexing
 * [Numpy  Cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+
+
+<a name="tools"></a>
+## Tools
+
+<a name="tools-jupyterlab"></a>
+#### JupyterLab
+JupyterLab is the next-generation web-based user interface for Project Jupyter.
+
+JupyterLab enables you to work with documents and activities such as [Jupyter notebooks](https://jupyterlab.readthedocs.io/en/latest/user/notebook.html#notebook), text editors, terminals, and custom components in a flexible, integrated, and extensible manner. You can[arrange](https://jupyterlab.readthedocs.io/en/latest/user/interface.html#interface) multiple documents and activities side by side in the work area using tabs and splitters. Documents and activities integrate with each other, enabling new workflows for interactive computing.
+
+[Installation.html](https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html)
+[Documentation](https://jupyterlab.readthedocs.io/en/latest/index.html)
+[GitHub Repo](https://github.com/jupyterlab/jupyterlab)
+[Using Jupyter Notebook](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) - explains how to install, run, and use Jupyter Notebooks for data science, including tips, best practices, and examples.
+[Using notebook inside JupyterLab](https://jupyterlab.readthedocs.io/en/latest/user/notebook.html) - Using calssic jupyter notebooks inside jupyter lab.
