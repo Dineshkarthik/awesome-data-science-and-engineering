@@ -1,4 +1,4 @@
-# Data Science & Engineering
+# Awesome Data Science & Engineering
 
 A curated list of Data Science and Engineering frameworks, tools, libraries and related list of tutorials.
 This mostly covers python related opensource ones ranging from beginner to intermediate levels.
@@ -13,6 +13,7 @@ This mostly covers python related opensource ones ranging from beginner to inter
     - [NumPy](#libraries-numpy)
 - [Tools](#tools)
 	- [JupyterLab](#tools-jupyterlab)
+	- [Google Colab](#tools-colab)
 
 <!-- /MarkdownTOC -->
 
@@ -57,8 +58,24 @@ JupyterLab is the next-generation web-based user interface for Project Jupyter.
 
 JupyterLab enables you to work with documents and activities such as [Jupyter notebooks](https://jupyterlab.readthedocs.io/en/latest/user/notebook.html#notebook), text editors, terminals, and custom components in a flexible, integrated, and extensible manner. You can[arrange](https://jupyterlab.readthedocs.io/en/latest/user/interface.html#interface) multiple documents and activities side by side in the work area using tabs and splitters. Documents and activities integrate with each other, enabling new workflows for interactive computing.
 
-[Installation.html](https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html)
-[Documentation](https://jupyterlab.readthedocs.io/en/latest/index.html)
-[GitHub Repo](https://github.com/jupyterlab/jupyterlab)
-[Using Jupyter Notebook](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) - explains how to install, run, and use Jupyter Notebooks for data science, including tips, best practices, and examples.
-[Using notebook inside JupyterLab](https://jupyterlab.readthedocs.io/en/latest/user/notebook.html) - Using calssic jupyter notebooks inside jupyter lab.
+* [Installation.html](https://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html)
+* [Documentation](https://jupyterlab.readthedocs.io/en/latest/index.html)
+* [GitHub Repo](https://github.com/jupyterlab/jupyterlab)
+* [Using Jupyter Notebook](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) - explains how to install, run, and use Jupyter Notebooks for data science, including tips, best practices, and examples.
+* [Jupyter notebook tips, tricks & shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) - keyboard shortcuts, IPython magic commands.
+* [JupyterLab evolution of the jupyter notebook](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b) - An overview of JupyterLab, the next generation of the Jupyter Notebook.
+* [Using notebook inside JupyterLab](https://jupyterlab.readthedocs.io/en/latest/user/notebook.html) - Using calssic jupyter notebooks inside jupyter lab.
+* [Running PySpark in Jupyter notebook](https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f) - PySpark installation, connection pyspark to notebook
+
+<a name="tools-colab"></a>
+#### Google Colab
+Colaboratory is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud.
+
+With Colaboratory you can write and execute code, save and share your analyses, and access powerful computing resources, all for free from your browser.
+
+* [Basic Features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
+* [Importing Libraries](https://colab.research.google.com/notebooks/snippets/importing_libraries.ipynb)
+* [More resources](https://colab.research.google.com/notebooks/welcome.ipynb)
+* [GPU Notebooks](https://colab.research.google.com/notebooks/gpu.ipynb)
+* [Getting started](https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c) -  a small dive into basic features
+* [Running PySpark in colab](https://towardsdatascience.com/pyspark-in-google-colab-6821c2faf41c) - How to run Apache spark python api in google colab.
