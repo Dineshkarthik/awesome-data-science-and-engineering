@@ -7,7 +7,8 @@ This mostly covers python related opensource ones ranging from beginner to inter
 ## Table of Contents
 
 <!-- MarkdownTOC depth=4 -->
-
+- [Frameworks](#frameworks)
+	- [Apache Airflow](#frameworks-apache-airflow)
 - [Libraries](#libraries)
     - [Pandas](#libraries-pandas)
     - [NumPy](#libraries-numpy)
@@ -17,6 +18,28 @@ This mostly covers python related opensource ones ranging from beginner to inter
 	- [Google Colab](#tools-colab)
 
 <!-- /MarkdownTOC -->
+
+<a name="frameworks"></a>
+## Frameworks
+
+<a name="frameworks-apache-airflow"></a>
+#### Apache Airflow - [pypi](https://pypi.org/project/apache-airflow/)
+Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows.
+
+Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The Airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
+- [Homepage](http://airflow.apache.org/)
+- [Installation](http://airflow.apache.org/installation.html)
+- [Getting started](https://towardsdatascience.com/getting-started-with-apache-airflow-df1aa77d7b1b) - simple airflow setup and running dags.
+- [Key concepts](https://medium.com/@dustinstansbury/understanding-apache-airflows-key-concepts-a96efed52b1a) - DAGs, operators, sensors, tasks
+- [Executors](https://www.astronomer.io/guides/airflow-executors-explained/) - explanation on different type of executors
+- [Triggering DAGs](https://dabble-of-devops.com/learn-airflow-by-example-part-3-start-building/) - triggering DAG via UI, REST api, Command Line
+- [Custom Operator and Sensor](http://michal.karzynski.pl/blog/2017/03/19/developing-workflows-with-apache-airflow/) - write your own operator and sensor.
+- [Multiple workers with Celery executor](https://blog.sicara.com/using-airflow-with-celery-workers-54cb5212d405) - Using celery executor run mutiple airflow workers
+##### Advanced Concepts:
+- [Kubernetes operator](https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/) - explanation on how to use k8s operator
+- [Using kubernetes executor](https://gist.github.com/kppullin/54d07f557c7c64c321786d6ed40b46e1) - run airflow with kubernetes executor in mini-kube using helm.
+- [ Tips, Tricks and Best practises](https://medium.com/datareply/airflow-lesser-known-tips-tricks-and-best-practises-cf4d4a90f8f)
+- [Deep Dive into airflow on kubernetes executor](https://www.datacouncil.ai/hubfs/DataEngConf/Data%20Council/Slides%20SF%2019/Running%20Airflow%20reliably%20with%20Kubernetes.pdf) - Running airflow reliabley with Kubernetes. 
 
 <a name="libraries"></a>
 ## Libraries
