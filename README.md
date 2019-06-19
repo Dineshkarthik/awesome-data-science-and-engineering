@@ -1,4 +1,4 @@
-# Awesome Data Science & Engineering
+# Data Science & Engineering
 
 A curated list of Data Science and Engineering frameworks, tools, libraries and related list of tutorials.
 This mostly covers python related opensource ones ranging from beginner to intermediate levels.
@@ -11,6 +11,7 @@ This mostly covers python related opensource ones ranging from beginner to inter
 - [Libraries](#libraries)
     - [Pandas](#libraries-pandas)
     - [NumPy](#libraries-numpy)
+    - [Alembic](#libraries-alembic)
 - [Tools](#tools)
 	- [JupyterLab](#tools-jupyterlab)
 	- [Google Colab](#tools-colab)
@@ -48,6 +49,21 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 * [Fancy Indexing](https://jakevdp.github.io/PythonDataScienceHandbook/02.07-fancy-indexing.html) - fancy indexing, combined indexing
 * [Numpy  Cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 
+<a name="libraries-alembic"></a>
+#### Alembic - [pypi](https://pypi.org/project/alembic/)
+Alembic is a database migrations tool written by the author of  [SQLAlchemy](http://www.sqlalchemy.org/). A migrations tool offers the following functionality:
+
+ 1. Can emit ALTER statements to a database in order to change the structure of tables and other constructs
+ 2. Provides a system whereby “migration scripts” may be constructed; each script indicates a particular series of steps that can “upgrade” a target database to a new version, and optionally a series of steps that can “downgrade” similarly, doing the same steps in reverse.
+ 3. Allows the scripts to execute in some sequential manner.
+
+- [Homepage](https://alembic.sqlalchemy.org/)
+- [Documentation](https://alembic.sqlalchemy.org/en/latest/)
+- [Getting started](https://alembic.sqlalchemy.org/en/latest/tutorial.html) - Setting up alembic connection, running migrations, downgrading 
+- [Auto-generate migrations](https://alembic.sqlalchemy.org/en/latest/autogenerate.html) - Alembic can view the status of the database and compare against the table metadata in the application, generating the “obvious” migrations based on a comparison.
+- [Batch migratoins](https://alembic.sqlalchemy.org/en/latest/batch.html) - Runnign batch migrations
+- [Working with branches](https://alembic.sqlalchemy.org/en/latest/branches.html) - merging two divergent source trees
+-  [Alembic and Postgresql/](https://www.compose.com/articles/schema-migrations-with-alembic-python-and-postgresql/) - Running simple migrations on postgres using alembic.
 
 <a name="tools"></a>
 ## Tools
