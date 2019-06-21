@@ -7,6 +7,8 @@ This mostly covers python related opensource ones ranging from beginner to inter
 ## Table of Contents
 
 <!-- MarkdownTOC depth=4 -->
+- [Big Data](#big-data)
+	- [PySpark - Apache Spark Python API](#big-data-pyspark)
 - [Frameworks](#frameworks)
 	- [Apache Airflow](#frameworks-apache-airflow)
 - [Libraries](#libraries)
@@ -18,6 +20,30 @@ This mostly covers python related opensource ones ranging from beginner to inter
 	- [Google Colab](#tools-colab)
 
 <!-- /MarkdownTOC -->
+
+<a name="big-data"></a>
+## Big Data
+
+<a name="big-data-pyspark"></a>
+#### PySpark - Apache Spark Python API - [pypi](https://pypi.org/project/pyspark/)
+Apache Spark is a fast and general-purpose cluster computing system. It provides high-level APIs in Java, Scala, Python and R, and an optimized engine that supports general execution graphs. It also supports a rich set of higher-level tools including [Spark SQL](https://spark.apache.org/docs/latest/sql-programming-guide.html) for SQL and structured data processing, [MLlib](https://spark.apache.org/docs/latest/ml-guide.html) for machine learning, [GraphX](https://spark.apache.org/docs/latest/graphx-programming-guide.html) for graph processing, and [Spark Streaming](https://spark.apache.org/docs/latest/streaming-programming-guide.html).
+- [Homepage](https://spark.apache.org/)
+- [Installation](https://www.roseindia.net/bigdata/pyspark/install-pyspark-on-ubuntu.shtml)
+- [Documentation](https://spark.apache.org/docs/latest/api/python/index.html)
+- [Getting Started](https://www.guru99.com/pyspark-tutorial.html) - overview os sparkcontext, sqlcontext, spark ml, basic operations, data processing.
+- [Introduction to Dataframes in PySpark](https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-dataframes-python.html) - creating dataframes, commonly used functions on dataframes.
+- [Introduction to Dataframes in PySpark - Part 2](https://dzone.com/articles/pyspark-dataframe-tutorial-introduction-to-datafra) - hands on dataframe using opensource datasets.
+- [PySpark SQL](https://github.com/apache/spark/blob/master/examples/src/main/python/sql/basic.py) - basics of pyspark sql.
+- [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/2.2.0/sql-programming-guide.html) - sql, dataframe operations, dataset, aggregation, global temp view,  interoperating with RDDs ...
+- [PySpark SQL Cheatsheet](https://cdn.qubole.com/wp-content/uploads/2017/08/PySpark_SQL_Cheat_Sheet_Python.pdf)
+- [UDF - User-Defined Functions](https://changhsinlee.com/pyspark-udf/) - register UDFs, invoke UDFs.
+- [Using Parquet files](https://spark.apache.org/docs/2.2.0/sql-programming-guide.html#parquet-files) - loading data, paritions, schema merging, metadata refreshing.
+- [Structured streaming](https://docs.databricks.com/_static/notebooks/structured-streaming-python.html) - batch/interactive processing, stream processing.
+- [Example scripts](https://github.com/apache/spark/tree/master/examples/src/main/python) - set of example scriupts from Apache spark github repo.
+- [PySpark Streaming with Kafka/](https://www.rittmanmead.com/blog/2017/01/getting-started-with-spark-streaming-with-python-and-kafka/) - using pyspark StreamingContext connect to kafka and process the data from kafka stream.
+
+#### Study Material
+- [Learning Apache Spark with Python](https://runawayhorse001.github.io/LearningApacheSpark/pyspark.pdf)
 
 <a name="frameworks"></a>
 ## Frameworks
